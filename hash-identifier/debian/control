@@ -1,0 +1,16 @@
+Source: hash-identifier
+Section: util
+Priority: extra
+Maintainer: Devon Kearns <dookie@kali.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://code.google.com/p/hash-identifier/
+Vcs-Git: ssh://git@git.kali.org/packages/hash-identifier.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/hash-identifier.git;a=summary
+
+Package: hash-identifier
+Architecture: all
+Depends: ${misc:Depends}, python
+Description: Tool to identify hash types
+ Software to identify the different types of hashes used to 
+ encrypt data and especially passwords. 
